@@ -314,7 +314,7 @@ Podemos ver que la diferencia se establece dentro de la función. La variable de
 En este ejemplo, vamos a utilizar operadores de control de flujo y comparación. El flujo de control ("control flow") es una forma de que nuestra función verifique si algo es `true`, y ya sea ejecutando el código suministrado si es así o avanzando si no lo es. Para esto usaremos la palabra clave `if`:
 
 ```javascript
-function puedeManejar(edad) {
+function puedeManejar(edad > 18) {
     if (edad > 18) {
         return true;
     }
